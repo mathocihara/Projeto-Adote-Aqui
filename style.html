@@ -25,6 +25,7 @@
             <h3 class="titulo">Dooby Doo</h3>
             <h4>Adote Aqui.com</h4>
         </Div>
+            <div class="extra"></div>
             <lu class="it1">sobre nós</lu>
             <lu class="it2">pagina</lu>
             <lu class="it3">Quem somos</lu>
@@ -35,12 +36,27 @@
 </Head>
 
 <body>
-
+    <style>
+        @media (max-width: 700px)
+        {  
+        .extra{
+            flex-direction: column;
+        }
+            .titulo{
+              display: none;
+          }
+            h4{
+                display: none;
+            }
+        .central{
+            flex-direction: column;
+        }
+        </style>
 </div>
 <section class="central">
 
     <div class="text">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Italian_Greyhound_standing_gray.jpg">
+    <img class="cachorroP" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Italian_Greyhound_standing_gray.jpg">
     <h3 id="t1">Plinio</h3>
     <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Corrupti saepe quidem dignissimos illum quibusdam veritatis natus delectus dolore, eos consectetur ipsum obcaecati dolor vel officiis atque quis blanditiis ut sunt?</p>
     <button id="b1"><span id="adote">Adotar</span></button>
@@ -54,7 +70,7 @@
     </div>
 
     <div class="text3">
-    <img class="C.Shitzu"  src="https://www.dicaspetz.com.br/wp-content/uploads/2020/09/cruzamento-de-lhaza-apso-com-shih-tzu-cachorro.jpg">
+    <img class="CShitzu"  src="https://www.dicaspetz.com.br/wp-content/uploads/2020/09/cruzamento-de-lhaza-apso-com-shih-tzu-cachorro.jpg">
     <h3 id="t3">Sloopy</h3>
     <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, esse? Debitis labore perspiciatis nobis veniam aliquam voluptatem provident aliquid fugit quas, ipsam assumenda earum nemo tenetur quae. Molestias, nulla repudiandae</p>
     <button id="b3"><span id="adote3">Adotar</span></button>
