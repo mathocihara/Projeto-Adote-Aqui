@@ -65,16 +65,16 @@ body {
 }
 
 .central{
+    height: 80%;
+    width: 90%;
+    margin: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 85px;
-    height: 250%;
 
 }
 
 .text{
-    width: 30%;
     display: inline;
     margin: 16px;
     border-radius: 7%;
@@ -88,11 +88,7 @@ body {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     transition: 0.4s;
-
-}
-.text:hover{
     border: 2px solid black;
-    transition: 0.2;
 }
 img{
     border-radius: 7px;
@@ -122,14 +118,6 @@ img{
     width: 7cm;
     border: 2px solid black;
 }
-#b1:hover{
-    width: 8.5cm;
-    transition: 0.3s;
-    -webkit-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    transform: scale(0.8);
-    border: 6px solid black;
-}
 
 #adote{
     font-size: 40px;
@@ -139,19 +127,117 @@ img{
 
 
 .text2{
- display: inline;
- border: 2px solid;
- text-align: center;
+    display: inline;
+    margin: 16px;
+    border-radius: 7%;
+    padding: 15px;
+    text-align: center;
+    background: #9ADCFF;
+
+
+}
+.text2:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.4s;
+    border: 2px solid black;
 }
 .gato{
     height: 200px;
     width: 300px;
 }
-.text3{
-    display: inline;
-    border: 1px solid;
-    text-align: center;
 
+#t2{
+    border: 2px solid;
+    border-radius: 5cm;
+    margin-top: 17px;
+    margin-bottom: 14px;
+    background: #F0FFC2;
+}
+#p2{
+    border: 1px solid;
+    border-radius: 17px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #65C18C;
+}
+#b2{
+    background: #711A75;
+    border-radius: 19px;
+    height: 1.5cm;
+    width: 7cm;
+    border: 2px solid black;
 }
 
+#adote2{
+    font-size: 40px;
+    font-family: 'Supermercado One';
+}
+
+.text2{
+    display: inline;
+    margin: 16px;
+    border-radius: 7%;
+    padding: 15px;
+    text-align: center;
+    background: #9ADCFF;
+
+
+}
+.text2:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.4s;
+    border: 2px solid black;
+}
+.gato{
+    height: 200px;
+    width: 300px;
+}
+
+.text3{
+    display: inline;
+    margin: 16px;
+    border-radius: 7%;
+    padding: 15px;
+    text-align: center;
+    background: #9ADCFF;
+
+
+}
+.text3:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.4s;
+    border: 2px solid black;
+}
+#t3{
+    border: 2px solid;
+    border-radius: 5cm;
+    margin-top: 17px;
+    margin-bottom: 14px;
+    background: #F0FFC2;
+}
+#p3{
+    border: 1px solid;
+    border-radius: 17px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #65C18C;
+}
+#b3{
+    background: #711A75;
+    border-radius: 19px;
+    height: 1.5cm;
+    width: 7cm;
+    border: 2px solid black;
+}
+
+#adote3{
+    font-size: 40px;
+    font-family: 'Supermercado One';
+}
   
