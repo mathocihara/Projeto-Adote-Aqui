@@ -34,7 +34,6 @@ body {
 }
 
 .it1:hover{
-    background-color: #6CC23A;
     color: #F04A4F;
     transition: .5s;
 }
@@ -45,7 +44,6 @@ body {
     height: 100%;
 }
 .it2:hover{
-    background-color: #6CC23A;
     color: #F04A4F;
     transition: .5s;
 }
@@ -57,7 +55,6 @@ body {
 }
 
 .it3:hover{
-    background-color: #6CC23A;
     color: #F04A4F;
     transition: .3s;
 }
@@ -107,11 +104,9 @@ body {
     background: #D9CC9A;
 }
 #p1{
-    height: 3cm;
+    padding: 3px;
     border-radius: 17px;
     margin-bottom: 15px;
-    padding: 3px;
-    background: #D9CC9A;
 }
 #b1{
     background: #D9CC9A;
@@ -155,11 +150,10 @@ body {
     background: #D9CC9A;
 }
 #p2{
-    height: 4.0cm;
     border-radius: 17px;
-    padding: 3px;
-    margin-bottom: 15px;
-    background: #D9CC9A;
+    padding: 4px;
+    margin: 10px;
+    border-bottom: 15px;
 }
 #b2{
     background: #D9CC9A;
@@ -222,11 +216,10 @@ body {
     background: #D9CC9A;
 }
 #p3{
-    height: 3cm;
     border-radius: 17px;
     margin-bottom: 15px;
-    padding: 2px;
-    background: #D9CC9A;
+    padding: 4px;
+
 }
 #b3{
     background: #D9CC9A;
@@ -247,5 +240,15 @@ body {
     font-family: 'Supermercado One';
 }
 
+footer{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #6CC23A;
+    border-radius: 10px;
+    font-family: 'Supermercado One';
+}
 
   
