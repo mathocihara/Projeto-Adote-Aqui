@@ -91,6 +91,7 @@ body {
     margin: 16px;
     border-radius: 7%;
     align-items: center;
+    border: 2px solid black;
     background-image: linear-gradient( 180deg , #8F3115, #8F3115, #F6D37F, #DB6D0C, #DB6D0C, #AC1909 );
 }
 .text:hover{
@@ -98,7 +99,6 @@ body {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     transition: 0.4s;
-    border: 2px solid black;
 }
 
 
@@ -130,7 +130,7 @@ body {
     justify-content: center;
     margin: 16px;
     border-radius: 7%;
-
+    border: 2px solid black;
     align-items: center;
     background-image: linear-gradient( 180deg , #DD591B, #DD591B,#F6D37F, #7e5486, #E0ADF8, #FAD0D4);
 }
@@ -139,7 +139,6 @@ body {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     transition: 0.4s;
-    border: 2px solid black;
 }
 
 #b2{
@@ -173,7 +172,8 @@ body {
     border-radius: 7%;
     align-items: center;
     background-image: linear-gradient( 180deg , #F9C647, #F9C647, #EFD9A0,#4371D3,#EA7E19, #EDF2F5, #EDF2F5,  #4371D3);
-  
+    border: 2px solid black;
+
 
 
 }
@@ -182,7 +182,6 @@ body {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     transition: 0.4s;
-    border: 2px solid black;
 }
 
 
